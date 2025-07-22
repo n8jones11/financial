@@ -1,20 +1,16 @@
 {
-  
   "name": "my-investment-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://n8jones11.github.io/financial",
-  // ... other fields
-
-  },
   "scripts": {
-  "start": "react-scripts start", // or "vite" for Vite projects
-  "build": "react-scripts build", // or "vite build" for Vite projects
-  "test": "react-scripts test",
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build" // 'build' is the default output folder for Create React App/Vite
-},
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -36,3 +32,4 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   }
+}
