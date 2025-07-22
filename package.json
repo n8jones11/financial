@@ -1,11 +1,11 @@
 {
-  {
+  
   "name": "my-investment-app",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://n8jones11.github.io/financial",
   // ... other fields
-}
+
   },
   "scripts": {
   "start": "react-scripts start", // or "vite" for Vite projects
